@@ -1,0 +1,273 @@
+ :root {
+     font: 16px;
+    --text-primary: #fee400;
+    --text-secondary: #b80300;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    
+ }
+
+ 
+html {
+    background-color: black;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    
+}
+    
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     box-sizing: border-box;
+ }
+    
+
+
+h1 {
+    color: var(--text-primary);
+    text-shadow: 1px 1px 2px red, 0 0 1em var(--text-secondary) , 0 0 0.2em var(--text-secondary);
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.sith {
+    color: var(--text-secondary);
+    text-shadow: 1px 1px 2px var(--text-primary), 0 0 1em red , 0 0 0.2em red;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.button1 {
+    background-color: var(--text-primary);
+    border: none;
+    border-radius: 30%;
+    padding: .5em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    
+  
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--text-primary);
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px var(--text-primary), 0 0 1em var(--text-secondary) , 0 0 0.2em var(--text-primary);
+}
+
+.lead  {
+    width: 55%;
+    font-size: 2em;
+    
+}
+
+@media (max-width: 800px) {
+    h1, .sith {
+        font-size: 3rem;
+    }
+    nav img {
+        height: 28px;
+        width: 28px;
+    }
+    .sw-icon {
+        margin-top: 9px;
+    }
+    
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .button1 {
+        font-size: 1rem;
+    }
+
+   
+    
+}
+
+@media (max-width: 450px ) {
+    h1, .sith {
+        font-size: 2rem;
+    }
+
+    .button1 {
+        font-size: .5rem;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rhUDI4SZSssO2DNuI_moQXbWljdLJXHDqQ&usqp=CAU");
+   
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+    list-style: none;
+    max-width: 50%;
+}
+
+
+.nav-links a img:hover {
+    background-color: var(--text-primary);
+    border-radius: 30%;
+    padding: 2px;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+
+.jedi-order {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-top: .4rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.button1:hover {
+    background-color: #b80300;
+    cursor: pointer;
+    
+}
+
+nav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a {
+    color: black;
+}
+
+button a:hover {
+    color: var(--text-primary);
+}
+
+.poster {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    color: var(--text-primary);
+    align-items: center;
+    margin-bottom: 3rem;
+    max-height: 40rem;
+}
+
+.poster img {
+    width: 25%;   
+    border-radius: 10%;
+
+}
+
+
+
+.description {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+@media (max-width: 1380px) {
+    .lead {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1.5 rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .lead {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .lead ul {
+        font-size: .5rem;
+        font-weight: lighter;
+    }
+
+    .lead {
+        font-size: .8rem;
+    }
+
+    .description {
+        font-size: .8rem;
+        font-weight: 100;
+    }
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #fee400;    
+}
+
+.nav-links li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hope {
+    text-align: center;
+}
+
+
+#sith-red {
+    color: var(--text-secondary);
+}
+
