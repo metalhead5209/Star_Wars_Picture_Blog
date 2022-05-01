@@ -1,48 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SW Picture Blog</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=PT+Serif&family=Raleway:wght@800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css">
+<meta charset="utf-8">
+<title>Star Wars Photo Blog</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="outer-body">
+	
+	<div class="inner-body"> 
+		
+	<h1 class="header-one">Star Wars Picture Blog</h1>
 
-    <h1>Star Wars Picture Blog</h1>
+     <nav id="maninNavbar">
 
-    <nav>
+        <h4> <a href="home.html"> <img src="imgs/icons8-star-wars.svg" alt="swicon" class="sw-icon"></a></h4>
 
-        <h4> <a href="index.html"> <img src="movie-posters/icons8-star-wars.svg" class="sw-icon"></h4></a>
-
-        <ul class="nav-links">
+        
+			
+				<ul class="nav-links">
             <li>
-                <a href="index.jedi.html"> <img src="movie-posters/jedi-order.png" id="jedi"></a>
+                <a href="index.jedi.html"> <img src="imgs/jedi-order.png" alt="jedi" id="jedi"></a>
             </li>
             <li>
-                <a href="index.sith.html"> <img src="movie-posters/sith-order.png"></a>
+                <a href="index.sith.html"> <img src="imgs/sith-order.png" alt="sith"></a>
             </li>
+			<li>
+                <a href="index.signup.html"> <img src="imgs/signUP.png" alt="sith" width="51" height="51" id="sign-up"></a>
+            </li>
+					
+			
 
         </ul>
 
         <div class="button-container">
-            <button class="button1"> <a href=""></a>Starwars.com</button>
+            <a href="https://www.starwars.com" target="_blank"><button class="button1">Starwars.com</button></a>
         </div>
     </nav>
+
 
     <h2>Movie Titles in Order</h2>
 
     <section class="movie-posters">
 
         <div class="poster">
-            <img src="movie-posters/newhope.jfif" class="movie-pics">
+            <img src="imgs/newhope.jfif" alt="newhope" class="movie-pics">
 
             <p class="lead">
                 <b>A New Hope</b> <br />
@@ -64,10 +66,10 @@
                 travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark
                 side of the Force beckons him into the ultimate duel with Darth Vader (David Prowse).
             </p>
-            <img src="movie-posters/empirestrikesback.jfif" class="movie-pics">
+            <img src="imgs/empirestrikesback.jfif" alt="esb" class="movie-pics">
         </div>
         <div class="poster">
-            <img src="movie-posters/returnofjedi.jfif" class="movie-pics">
+            <img src="imgs/returnofjedi.jfif" alt="roj" class="movie-pics">
             <p class="lead">
                 Luke Skywalker (Mark Hamill) battles horrible Jabba the Hut and cruel Darth Vader to save his comrades
                 in the Rebel Alliance and triumph over the Galactic Empire. Han Solo (Harrison Ford) and Princess Leia
@@ -83,10 +85,10 @@
                 Darth Vader, is just a 9-year-old boy. When the Trade Federation cuts off all routes to the planet
                 Naboo, Qui-Gon and Obi-Wan are assigned to settle the matter.
             </p>
-            <img src="movie-posters/phantommenace.jfif" class="movie-pics">
+            <img src="imgs/phantommenace.jfif" alt="tpm" class="movie-pics">
         </div>
         <div class="poster">
-            <img src="movie-posters/attackofclones.jfif" class="movie-pics">
+            <img src="imgs/attackofclones.jfif" alt="aotc" class="movie-pics">
             <p class="lead">
                 Set ten years after the events of "The Phantom Menace," the Republic continues to be mired in strife and
                 chaos. A separatist movement encompassing hundreds of planets and powerful corporate alliances poses new
@@ -103,10 +105,10 @@
                 Council concerning Chancellor Palpatine, with whom Anakin has formed a bond. Asked to spy on the
                 chancellor, and full of bitterness toward the Jedi Council, Anakin embraces the Dark Side.
             </p>
-            <img src="movie-posters/revengeofsith.jfif" class="movie-pics">
+            <img src="imgs/revengeofsith.jfif" alt="ros" class="movie-pics">
         </div>
         <div class="poster">
-            <img src="movie-posters/forceawakens.jfif" class="movie-pics">
+            <img src="imgs/forceawakens.jfif" alt="tfa" class="movie-pics">
             <p class="lead">
                 On the desert planet Jakku, Resistance pilot Poe Dameron receives a map to Luke's place from Lor San
                 Tekka. Stormtroopers commanded by Kylo Ren raid the village and capture Poe, while Kylo kills San Tekka.
@@ -120,10 +122,10 @@
                 that changes their lives forever. Meanwhile, Kylo Ren and General Hux lead the First Order in an all-out
                 assault against Leia and the Resistance for supremacy of the galaxy.
             </p>
-            <img src="movie-posters/thelastjedi.jfif" class="movie-pics">
+            <img src="imgs/thelastjedi.jfif" alt="tlj" class="movie-pics">
         </div>
         <div class="poster">
-            <img src="movie-posters/riseofskywalker.jfif" class="movie-pics">
+            <img src="imgs/riseofskywalker.jfif" alt="ros" class="movie-pics">
             <p class="lead">
                 When it's discovered that the evil Emperor Palpatine did not die at the hands of Darth Vader, the rebels
                 must race against the clock to find out his whereabouts. Finn and Poe lead the Resistance to put a stop
@@ -135,11 +137,12 @@
 
 
     </section>
+			<footer>
 
-
-
-
-
+			<p id="pfoot"> Copy Right: Aaron Rodi 2022</p>
+			
+	</footer>
+		
+	</div>
 </body>
-
 </html>
