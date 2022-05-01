@@ -1,47 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SITH</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=PT+Serif&family=Raleway:wght@800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css">
+<meta charset="utf-8">
+<title>Sith</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="outer-body">
+	
+	<div class="inner-body"> 
+	<h4 class="sith">SITH</h4>
 
-    <h4 class="sith">SITH</h4>
 
+     <nav id="maninNavbar">
 
-    <nav id="maninNavbar">
-
-        <h4> <a href="index.html"> <img src="movie-posters/icons8-star-wars.svg" class="sw-icon"></h4></a>
+        <h4> <a href="index.html"> <img src="imgs/icons8-star-wars.svg" alt="swicon" class="sw-icon"></a></h4>
 
         <ul class="nav-links">
             <li>
-                <a href="index.jedi.html"> <img src="movie-posters/jedi-order.png" id="jedi"></a>
+                <a href="index.jedi.html"> <img src="imgs/jedi-order.png" alt="jedi" id="jedi"></a>
             </li>
             <li>
-                <a href="index.sith.html"> <img src="movie-posters/sith-order.png"></a>
+                <a href="index.sith.html"> <img src="imgs/sith-order.png" alt="sith"></a>
+            </li>
+			<li>
+                <a href="index.signup.html"> <img src="imgs/signUP.png" alt="sith" width="51" height="51" id="sign-up"></a>
             </li>
 
         </ul>
 
         <div class="button-container">
-            <button class="button1"> <a href=""></a>Starwars.com</button>
+            <a href="https://www.starwars.com" target="_blank"><button class="button1">Starwars.com</button></a>
         </div>
     </nav>
 
 
+
     <div class="poster">
-        <img src="sith/darth-vader.png" class="movie-pics" alt="vader">
-        <p class="lead" id="sith-red">
+        <img src="imgs/darth-vader.png" class="movie-pics" alt="vader">
+        <p class="lead sith-red">
             <b>Darth Vader</b> <br />
             <br />
             Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to
@@ -51,7 +48,7 @@
     </div>
 
     <div class="poster">
-        <p class="lead" id="sith-red">
+        <p class="lead sith-red">
             <b>Darth Maul</b> <br />
             <br />
             Darth Maul was an Iridonian (or Zabrak), born on Iridonia. At an early age he was trained as a Jedi, but was
@@ -59,12 +56,12 @@
             began to teach him the ways of the Dark Side.
 
         </p>
-        <img src="sith/darth-maul.png" class="movie-pics" alt="maul">
+        <img src="imgs/darth-maul.jpg" class="movie-pics" alt="maul">
     </div>
 
     <div class="poster">
-        <img src="sith/lord-sidious.jpg" class="movie-pics" alt="sidious">
-        <p class="lead" id="sith-red">
+        <img src="imgs/lord-sidious.jpg" class="movie-pics" alt="sidious">
+        <p class="lead sith-red">
             <b>Lord Sidious</b> <br />
             <br />
             Scheming, powerful, and evil to the core, Darth Sidious restored the Sith and destroyed the Jedi Order.
@@ -73,27 +70,31 @@
     </div>
 
     <div class="poster">
-        <p class="lead" id="sith-red">
+        <p class="lead sith-red">
             <b>Darth Bane</b> <br />
             <br />
             An ancient and legendary Sith Lord, it was Darth Bane who saw that the Sith traditions of old were
             ultimately a dead end. All too often, squabbling Sith in their bid for power upended carefully laid plans.
         </p>
-        <img src="sith/darth-bane.jpg" class="movie-pics" alt="bane">
+        <img src="imgs/darth-bane.jpg" class="movie-pics" alt="bane">
 
 
     </div>
 
     <div class="poster">
-        <img src="sith/darth-revan.jpg" class="movie-pic" alt="revan">
-        <p class="lead" id="sith-red">
+        <img src="imgs/darth-revan.jpg" class="movie-pic" alt="revan">
+        <p class="lead sith-red">
             <b>Darth Revan</b> <br />
             <br />
             Revan is a fictional character in the Star Wars franchise, created for BioWare's 2003 role-playing video game Star Wars: Knights of the Old Republic.
         </p>
     </div>
+			<footer>
 
-
+			<p id="pfoot"> Copy Right: Aaron Rodi 2022</p>
+			
+	</footer>
+		
+	</div>
 </body>
-
 </html>
