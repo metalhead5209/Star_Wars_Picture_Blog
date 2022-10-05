@@ -7,4 +7,5 @@ I developed this using strictly html and css. The object of this project was to 
 
 
 Live Demo: 
-http://cmin.dcc.edu/users/aaronrodi/final%20project/index.signup.html
+http://cmin.dcc.edu/users/aaronrodi/final%20project/index.html
+
